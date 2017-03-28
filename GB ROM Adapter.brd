@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="7.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -52,7 +52,7 @@
 <layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
 <layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
@@ -188,6 +188,12 @@ JRodrigo.net</text>
 <vertex x="12.3825" y="21.59"/>
 <vertex x="0.9525" y="21.59"/>
 </polygon>
+<text x="0.3175" y="1.27" size="0.762" layer="25" font="vector" ratio="16">RESET</text>
+<text x="7.62" y="0.3175" size="0.8128" layer="25" font="vector" ratio="16" rot="R90">WR</text>
+<text x="9.525" y="0.3175" size="0.7112" layer="25" font="vector" ratio="16" rot="R90">A21</text>
+<text x="11.43" y="0.3175" size="0.7112" layer="25" font="vector" ratio="16" rot="R90">A20</text>
+<text x="8.255" y="6.0325" size="0.8128" layer="26" font="vector" ratio="16" rot="SMR45">GB ROM ADAPTER
+JRodrigo.net</text>
 </plain>
 <libraries>
 <library name="jrodrigo-gameboy">
@@ -393,6 +399,9 @@ Please make sure your boards conform to these design rules.</description>
 <autorouter>
 <pass name="Default">
 <param name="RoutingGrid" value="50mil"/>
+<param name="AutoGrid" value="1"/>
+<param name="Efforts" value="0"/>
+<param name="TopRouterVariant" value="1"/>
 <param name="tpViaShape" value="round"/>
 <param name="PrefDir.1" value="|"/>
 <param name="PrefDir.2" value="0"/>
@@ -496,7 +505,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="A21" library="testpad" package="TP08SQ" value="TPTP08SQ" x="10.16" y="0.635">
 <attribute name="TP_SIGNAL_NAME" value="" x="10.16" y="0.635" size="1.778" layer="27" display="off"/>
 </element>
-<element name="!R" library="testpad" package="TP08SQ" value="TPTP08SQ" x="1.27" y="0.635">
+<element name="!R" library="testpad" package="TP08SQ" value="" x="1.27" y="0.635">
 <attribute name="TP_SIGNAL_NAME" value="" x="1.27" y="0.635" size="1.778" layer="27" display="off"/>
 </element>
 </elements>
