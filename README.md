@@ -13,14 +13,14 @@ AM29F016@-#E* or AM29F032@-#E*
 ```
 *Ex: AM29F016-75EC, AM29F032B-120EI,...*
 
+## [How To - Assembly Guide](http://www.jrodrigo.net/wiki/how-to-diy-a-gameboy-flash-cartridge-with-a-rom-adapter-board/)
 
-## ToDo
-- [x] :package: **Order some PCB Adaptors**
-- [x] :mag: **Test the PCB Adaptors**
-- [ ] :bow: Coming soon on Tindie with pre-soldered ROM
+## Where to buy :package:
+- [**Tindie** with optional presolded 2MB/4MB ROM](https://www.tindie.com/products/JRodrigo/flash-memory-adapter-for-some-game-boy-cartridges/)
+- [**OSHpark** (PCB board only)](https://oshpark.com/shared_projects/5S5OQRXm)
 
 
-## LICENSE
+## License
 #### Licenced under [Creative Commons - Attribution and Share Alike](https://github.com/JRodrigoTech/FLASH-ROM-Adapter-for-GameBoy/blob/master/LICENSE.md) by [J.Rodrigo](http://www.jrodrigo.net)
 
 
